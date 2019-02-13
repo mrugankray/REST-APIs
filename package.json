@@ -1,0 +1,25 @@
+{
+  "name": "restify_customer_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "Mrugank Ray",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.10",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^7.7.0",
+    "restify-errors": "^6.1.1",
+    "restify-jwt-community": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
